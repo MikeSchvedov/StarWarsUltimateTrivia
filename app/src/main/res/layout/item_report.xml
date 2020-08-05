@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layoutDirection="rtl"
+    android:id="@+id/main_layout"
+    android:background="@drawable/my_button_bg_menu"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+      android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/default_flag"
+        android:layout_weight="1"
+
+      android:textColor="#ECDA14"
+        android:id="@+id/country_text"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="SCORE"
+        android:textColor="#ECDA14"
+        android:id="@+id/score_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="NAME"
+        android:textSize="14sp"
+        android:textColor="#ECDA14"
+        android:id="@+id/name_text"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="RANK"
+
+        android:textColor="#ECDA14"
+        android:layout_weight="1"
+        android:id="@+id/rank_text"/>
+
+
+
+
+
+
+</LinearLayout>
